@@ -1,8 +1,43 @@
 body {
-  background-color: blue;
+  background-color: #262626;
 }
 
 h1 {
-  color: blue;
+  color: #983737;
   margin-left: 20px;
+  font-size: 40px;
+}
+
+nav {
+  color: red;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 70%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #983737;
+  color: white;
 }
